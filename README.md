@@ -2,6 +2,10 @@
 
 a [Sails](http://sailsjs.org) application
 
+Sometimes as a dad, when you're alone and out with your kid it is a pain in the ass to find a place with a changing table. 
+This API solves that by cataloging places you can go that aren't the back of your car. 
+
+"Prod" API is hosted at heroku https://morning-fortress-52228.herokuapp.com
 
 ## Setup
 
@@ -13,6 +17,7 @@ a [Sails](http://sailsjs.org) application
 ## Usage
 GET /location to view all locations
 POST /location to create 
+POST /location/:id to edit
 GET /location/nearby to find nearby locations
 * lat is your latitude (required)
 * lng is your longitude (required)
