@@ -76,10 +76,10 @@ module.exports.connections = {
   ***************************************************************************/
   pgConnection: {
     adapter: 'sails-postgresql',
-    host: 'localhost',
-    user: 'ctf_user',
-    password: 'password',
-    database: 'ctf_api_dev'
+    host: 'ec2-54-225-66-44.compute-1.amazonaws.com',
+    user: 'xckorpjwabfdfs',
+    password: '73bca8d4c7023ae8e2bc85470870937488f9c1a75c462b08b6019f39d1a921dc',
+    database: 'd8fat8o05l45q9'
   }
 
 
