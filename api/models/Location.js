@@ -47,7 +47,7 @@ module.exports = {
 
     toJSON: function () {
       var location = this.toObject();
-      location.locationDisplay = location.city + ", " + location.state + " " + location.country;
+      location.locationDisplay = location.city + ", " + location.state + " " + location.postalCode;
       return location;
     }
 
