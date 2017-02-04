@@ -74,6 +74,15 @@ module.exports.connections = {
   *                                                                          *
   *                                                                          *
   ***************************************************************************/
+  //TODO - this is fucking dumb. Fix it.
+  //pgConnection: {
+  //  adapter: 'sails-postgresql',
+  //  host: 'localhost',
+  //  user: 'ctf_user',
+  //  password: 'password',
+  //  database: 'ctf_api_dev'
+  //}
+
   pgConnection: {
     adapter: 'sails-postgresql',
     host: 'ec2-54-225-66-44.compute-1.amazonaws.com',
