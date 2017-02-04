@@ -34,7 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'DELETE /location/:id': {response: 'notFound'}
 
   /***************************************************************************
   *                                                                          *
